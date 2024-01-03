@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+
+.main{
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+    background-color: wheat;
+    color: black;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    width: 98%; 
+   
+
+}
+
+/* @media screen and (max-width: 768px) {
+    
+    *{
+        width: 100%;
+        height: 300%;
+        align-items: center;
+
+    } 
+    
+} */
+
+.center{
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: large;
+}
+
+i:hover{
+    color: brown;
+    cursor:pointer;
+}
+ 
+
+
+.D1{
+    background: url("./Images/food\ back1.jpg") no-repeat;
+     height: 418px;  
+    background-size: 100%;
+    margin-top: 73px;
+    
+}
+
+.D2{
+    background-color: rgb(2, 2, 37);
+    height: 460px;
+    width: 100%;
+}
+
+.D3{
+    background-color:burlywood;
+    height: 460px;
+    width: 100%;
+}
+
+.D4{
+    background-color: rgb(2, 2, 37);
+    height: 460px;
+    width: 100%;
+}
+
+.D5{
+    background-color: burlywood;
+    height: 460px;
+    width: 100%;
+}
+
+.D6{
+    background: url("./Images/food\ back2.jpeg") no-repeat ;
+    height: 418px; 
+    background-size: 100%;
+    justify-content: center;
+    
+}
+
+.foods{
+    display: flex;
+    align-items: center;
+     gap: 10px; 
+    justify-content: space-around;
+}
+
+.D3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.D5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.D7{
+    background-color: burlywood;
+    height: 460px;
+    width: 100%;
+}
+
+input:focus{
+    background-color: darkcyan;
+}
+
+.D8{
+    background-color: black;
+    height: 460px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
